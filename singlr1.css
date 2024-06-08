@@ -1,0 +1,96 @@
+ *,
+ ::before,
+ ::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ @font-face {
+     font-family: chelsa;
+     src: url(/fonts/chelsea/ChelseaMarket-Regular.woff);
+ }
+
+ body {
+     margin: 0;
+     font-family: chelsa;
+
+ }
+
+ caption {
+     color: antiquewhite;
+ }
+
+ .dropdown {
+     margin: auto;
+     padding: 0;
+     max-width: 1200px;
+     background-color: rgba(29, 33, 24, 0.9);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+ }
+
+ tr>th {
+     /* border: none; */
+     background-color: rgb(227, 240, 240);
+
+ }
+
+ th,
+ tr {
+     /* border: none; */
+     background-color: #f3a1a1;
+     padding: 10px;
+
+ }
+
+ th:nth-child(3) {
+     background-color: #d91a86;
+ }
+
+ th:nth-child(2) {
+     background-color: #f3a1a1;
+ }
+
+ th:nth-child(1) {
+     background-color: #20d88e;
+ }
+
+ th:nth-child(4) {
+     background-color: #39f42c;
+ }
+
+ td:nth-child(1) {
+     color: green;
+     background-color: aquamarine;
+ }
+
+ table,
+ td,
+ th {
+     /* border: none; */
+     gap: 10px;
+     border-collapse: collapse;
+     padding: 20px;
+     border: 2px solid rgb(10, 24, 172);
+     /* border-radius: 10px; */
+     background-color: rgb(85, 14, 198);
+     text-align: left;
+ }
+
+ th {
+     /* padding: 0; */
+     /* border: none; */
+     background-color: blue;
+     text-align: left;
+ }
+
+
+ table {
+     border: none;
+     background-color: aqua;
+     border-radius: 10px;
+     /* text-align: left; */
+ }
